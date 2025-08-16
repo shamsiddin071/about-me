@@ -1,0 +1,42 @@
+
+@media (max-width: 1024px) {
+    .DDM {
+        padding: 60px 60px;
+    }
+}
+@media(max-width:900px){
+        .DDM {
+        grid-template-columns: 1fr;
+        padding: 40px 24px;
+    }
+
+    .DDM div:nth-child(3) {
+        width: 100%;
+    }
+    .DDM img{
+        transform: translateX(-150px);
+    }
+}
+@media(max-width:480px){
+        .DDM {
+        padding: 24px 16px;
+        gap: 20px;
+    }
+
+
+}
+@media(max-width:630px){
+    .DDM-div-1{
+        width: 50%;
+    }
+    .DDM-div-2{
+        width: 50%;
+    }
+    .DDM img{
+        transform: translateX(-300px);
+    }
+}
+/* Small fix: make sure no element forces horizontal scroll */
+html,
+body {
+    overflow-x: hidden;}
