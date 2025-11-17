@@ -3,11 +3,12 @@ body {
     margin: 0;
     box-sizing: border-box;
     height: 100vh;
-    background: linear-gradient(135deg, #97cc8b, #2d3a2f);
+    background: linear-gradient(135deg, #7e566b, #2b1721);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     font-family: raleway;
+    color: #f2ebe2e8 !important;
 }
 
 .about-me {
@@ -71,7 +72,7 @@ body {
     text-align: center;
 }
 
-/* Make sure the 3rd item spans full width when needed */
+
 .DDM div:nth-child(3) {
     grid-column: 1 / -1;
     width: 70%;
@@ -98,4 +99,5 @@ body {
     padding: 10px 50px;
     font-size: 20px;
     cursor: pointer ;
+    color: #f2ebe2e8;
 }
